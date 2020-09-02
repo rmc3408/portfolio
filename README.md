@@ -1,11 +1,9 @@
 # portfolio
-Watch live: https://p32929.github.io/Portfolio/  - [![Visits Badge](https://badges.pufler.dev/visits/puf17640/git-badges)](https://badges.pufler.dev)
+Watch live: https://rmc3408.github.io/Portfolio/
 
 
-Created by Sid and Raphael [![Created Badge](https://badges.pufler.dev/created/puf17640/git-badges)](https://badges.pufler.dev)
+Created by Sid and Raphael [![Created Badge](https://badges.pufler.dev/created/rmc3408/git-badges)](https://badges.pufler.dev)
 
-
-[![](https://badgen.net/github/release/p32929/Portfolio)]() [![](https://badgen.net/github/release/p32929/Portfolio/stable)]() [![](https://badgen.net/github/tag/p32929/Portfolio)]() [![](https://badgen.net/github/watchers/p32929/Portfolio)]() [![](https://badgen.net/github/checks/p32929/Portfolio)]() [![](https://badgen.net/github/status/p32929/Portfolio)]() [![](https://badgen.net/github/stars/p32929/Portfolio)]() [![](https://badgen.net/github/forks/p32929/Portfolio)]() [![](https://badgen.net/github/issues/p32929/Portfolio)]() [![](https://badgen.net/github/open-issues/p32929/Portfolio)]() [![](https://badgen.net/github/closed-issues/p32929/Portfolio)]() [![](https://badgen.net/github/label-issues/p32929/Portfolio/help-wanted/open)]() [![](https://badgen.net/github/prs/p32929/Portfolio)]() [![](https://badgen.net/github/open-prs/p32929/Portfolio)]() [![](https://badgen.net/github/closed-prs/p32929/Portfolio)]() [![](https://badgen.net/github/merged-prs/p32929/Portfolio)]() [![](https://badgen.net/github/commits/p32929/Portfolio)]() [![](https://badgen.net/github/last-commit/p32929/Portfolio)]() [![](https://badgen.net/github/branches/p32929/Portfolio)]() [![](https://badgen.net/github/releases/p32929/Portfolio)]() [![](https://badgen.net/github/tags/p32929/Portfolio)]() [![](https://badgen.net/github/license/p32929/Portfolio)]() [![](https://badgen.net/github/contributors/p32929/Portfolio)]() [![](https://badgen.net/github/dependents-pkg/p32929/Portfolio)]() 
 
 
 
