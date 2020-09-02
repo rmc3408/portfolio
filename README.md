@@ -1,9 +1,8 @@
-# portfolio
+# Portfolio
 Watch live: https://rmc3408.github.io/Portfolio/
 
 
-Created by Sid and Raphael [![Created Badge](https://badges.pufler.dev/created/rmc3408/git-badges)](https://badges.pufler.dev)
-
+Created by Sid and Raphael
 
 
 
@@ -29,8 +28,8 @@ You need to have `NPM` installed in your computer. If you don't have them instal
 ## Share
 Sharing with your friends is just one click away from here
 
-[![facebook](https://image.flaticon.com/icons/png/32/124/124010.png)](https://www.facebook.com/sharer/sharer.php?u=https://github.com/p32929/Portfolio)
-[![twitter](https://image.flaticon.com/icons/png/32/124/124021.png)](https://twitter.com/intent/tweet?source=https://github.com/p32929/Portfolio)
+
 [![Raphael Linkedin](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)]()
-[![linkedin](https://image.flaticon.com/icons/png/32/1409/1409945.png)](https://www.linkedin.com/shareArticle?mini=true&url=https://github.com/p32929/Portfolio)
+[![Sid Linkedin](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)]()
+
 [![whatsapp](https://image.flaticon.com/icons/png/32/733/733585.png)](https://api.whatsapp.com/send?text=https://github.com/p32929/Portfolio)
