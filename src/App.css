@@ -1,3 +1,16 @@
 .App {
   text-align: center;
 }
+body{
+  margin: 0;
+  padding:0;
+  list-style: none;
+}
+:root {
+  --c-darkGray: #222629;
+  --c-gray: #474b4f;
+  --c-lightGray: #c6c6c6;
+  --c-limeGreen: #86c232;
+  --c-forestGreen: #61892f;
+  --c-blue: #3accf9;
+}
