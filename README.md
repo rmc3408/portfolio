@@ -4,8 +4,7 @@ https://img.shields.io/repology/repositories/portfolio
 
 Created by Sid and Raphael
 ## Status
-[![ForTheBadge built-by-developers](http://ForTheBadge.com/images/badges/built-by-RMC3408.svg)](https://GitHub.com/Naereen/)
-[![ForTheBadge built-by-developers](http://ForTheBadge.com/images/badges/built-by-MARTINSID.svg)](https://GitHub.com/Naereen/)
+[![Build Status](https://travis-ci.com/rmc3408/portfolio.svg?branch=master)](https://travis-ci.com/rmc3408/portfolio)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 
 
