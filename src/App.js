@@ -1,8 +1,8 @@
 import React from "react";
 import "./App.css";
 import Navbar from "./Components/navbar";
-import ImageSection from './Components/imageSection'
-import About from './Components/About'
+import ImageSection from './Components/imageSection';
+import About from './Components/About';
 
 function App() {
   return (
