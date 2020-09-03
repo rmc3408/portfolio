@@ -4,7 +4,6 @@ Watch live: https://rmc3408.github.io/Portfolio/
 Created by Sid and Raphael
 ## Status
 [![Build Status](https://travis-ci.com/rmc3408/portfolio.svg?branch=master)](https://travis-ci.com/rmc3408/portfolio)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 
 
 ## Prerequisites
