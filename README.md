@@ -1,6 +1,5 @@
 # Portfolio
 Watch live: https://rmc3408.github.io/Portfolio/
-https://img.shields.io/repology/repositories/portfolio
 
 Created by Sid and Raphael
 ## Status
