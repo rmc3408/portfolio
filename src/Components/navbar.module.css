@@ -21,7 +21,7 @@
 .active{
     color:#86c232;
 }
-li:after {
+.list_item:after {
   content: "";
   display: block;
   margin: auto;
@@ -30,10 +30,10 @@ li:after {
   background: transparent;
   transition: width 0.5s ease, background-color 0.5s ease;
 }
-li:hover {
+.list_item:hover {
   cursor: pointer;
 }
-li:hover:after {
+.list_item:hover:after {
   width: 100%;
   background: #86c232;
 }
