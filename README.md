@@ -27,5 +27,5 @@ You need to have `NPM` installed in your computer. If you don't have them instal
 
 ## Share
 Sharing with your friends is just one click away from here
-[![Raphael Linkedin](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)]()
-[![Sid Linkedin](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)]()
+[![Raphael Linkedin](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](linkedin.com/in/raphael-molinaro-68388b133)
+[![Sid Linkedin](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](linkedin.com/in/raphael-molinaro-68388b133)
