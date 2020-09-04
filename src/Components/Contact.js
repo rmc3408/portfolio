@@ -1,13 +1,13 @@
 import React from "react";
-//import classes from "./Contact.module.css";
+import classes from "./Contact.module.css";
 
 const Contact = () => {
-    return <div>
+    return <div className={classes.cbody}>
         <div> 
             
         </div>
         <div> 
-            <p> Create by </p>
+             ------ @ 2020 --------
         </div>
         
     </div>

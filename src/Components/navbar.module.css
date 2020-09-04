@@ -6,7 +6,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #474b4f;
+  background-color: #3a4750;
   
 }
 
@@ -16,10 +16,10 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  color:#c6c6c6 ;
+  color:#eeeeee ;
 }
 .active{
-    color:#86c232;
+    color:#f6c90e;
 }
 .list_item:after {
   content: "";
@@ -35,5 +35,5 @@
 }
 .list_item:hover:after {
   width: 100%;
-  background: #86c232;
+  background: #f6c90e;
 }
