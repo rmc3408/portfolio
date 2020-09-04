@@ -40,6 +40,7 @@
     height: 90%;
     background-color:red;
     text-align: center;
+    transition:all .2s ease-in-out;
 }
 .about_cards>div>h3{
     color:white;
@@ -53,4 +54,7 @@ li{
     list-style-type :none;
     color:white;
     
+}
+.about_cards>div:hover{
+ transform: scale(1.1);
 }
