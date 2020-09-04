@@ -19,8 +19,15 @@
     left: 140px;
 }
 
-.boxTitle~h1 {
-    margin: 0 0 30px 0;
+.boxTitle h1 {
+    margin: 0 0 50px 0;
+    color:white;
+}
+
+.boxTitle h3 {
+    margin: 0 0 20px 0;
+    color:yellow;
+    text-align: right;
 }
 
 
