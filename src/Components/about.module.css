@@ -23,3 +23,34 @@
 
     
 }
+.about_cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about_cards{
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  
+}
+.about_cards>div{
+    width: 33%;
+    height: 90%;
+    background-color:red;
+    text-align: center;
+}
+.about_cards>div>h3{
+    color:white;
+    padding: 0;
+    margin: 0;
+
+
+}
+li{
+   
+    list-style-type :none;
+    color:white;
+    
+}
