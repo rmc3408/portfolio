@@ -8,9 +8,12 @@ AOS.init();
 
 const ImageSection = () => {
   return (
-  <div className={classes.imageContainer}>
-      <h1 style={{ color: 'white' }}>Hello, My name is Raphael Molinaro</h1>
-      <h3 style={{ color: 'white' }}>I'm a software Engineer</h3>
+    <div className={classes.imageContainer}>
+      <div className={classes.boxTitle}>
+        <h1 className={classes.titleName}> Hello, My name is Raphael Molinaro </h1>
+        <h3>I'm a software Engineer</h3>
+      </div>
+      
   </div>
   )
 };

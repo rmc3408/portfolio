@@ -1,11 +1,28 @@
 .imageContainer{
     height: 100vh;
-    width: 100vw;
-    background-image: url("../background_top.jpg");
+    width: 100%;
+    background-image: url("./img/background_top2.jpg");
     background-repeat: no-repeat;
     background-position: center center;
 
 }
+
+.titleName {
+    color: 'white';
+    margin:0;
+
+}
+
+.boxTitle {
+    position: absolute;
+    top: 300px;
+    left: 140px;
+}
+
+.boxTitle~h1 {
+    margin: 0 0 30px 0;
+}
+
 
 /* .imageContainer > img{
     width: 100%;
