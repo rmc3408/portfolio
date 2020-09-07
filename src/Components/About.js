@@ -1,15 +1,14 @@
-import React,{useEffect} from "react";
+import React, { useEffect } from "react";
 import classes from "./about.module.css";
-import AOS from 'aos';
-
+import AOS from "aos";
 
 const About = () => {
-  useEffect(()=>{
+  useEffect(() => {
     AOS.init({
       // initialise with other settings
-      duration : 2000
+      duration: 2000,
     });
-  })
+  });
   return (
     <div className={classes.about}>
       <div className={classes.about_text}>

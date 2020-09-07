@@ -5,7 +5,7 @@ import 'aos/dist/aos.css';
 
 
 AOS.init({
-  duration: 2200
+  duration: 3200
  });
 
 const ImageSection = () => {
@@ -18,7 +18,7 @@ const ImageSection = () => {
             className={classes.titleName}> Hello, My name is Raphael Molinaro </h1>
         <h3 data-aos="fade-up"
           data-aos-delay="700"
-          data-aos-duration="3000"> I'm a software Engineer</h3>
+          data-aos-duration="3000"> I'm a software developer</h3>
       </div>
       
   </div>
