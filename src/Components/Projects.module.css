@@ -4,6 +4,7 @@
 
 .project_title {
     background-color: #303841;
+    color: #f6c90e;
     display: flex;
     flex-direction: column;
     padding-top: 40px;

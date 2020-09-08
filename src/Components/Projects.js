@@ -17,7 +17,7 @@ const Projects = () => {
   
     <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    contentStyle={{ border: '3px solid  yellow', background: '#303841', color: '#f6c90e' }}
+    contentStyle={{ border: '3px solid  yellow', background: '#3a4750', color: '#f6c90e' }}
     contentArrowStyle={{ borderRight: '16px solid  yellow' }}
     iconStyle={{ background: '#303841', color: '#f6c90e' }}
     icon={<SchoolIcon />}  >
@@ -33,7 +33,7 @@ const Projects = () => {
               
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    contentStyle={{ border: '3px solid  yellow', background: '#303841', color: '#f6c90e' }}
+    contentStyle={{ border: '3px solid  yellow', background: '#3a4750', color: '#f6c90e' }}
     contentArrowStyle={{ borderRight: '16px solid  yellow' }}
     iconStyle={{ background: '#303841', color: '#f6c90e' }}
     icon={<StarIcon />}
@@ -48,7 +48,7 @@ const Projects = () => {
 
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    contentStyle={{ border: '3px solid  yellow', background: '#303841', color: '#f6c90e' }}
+    contentStyle={{ border: '3px solid  yellow', background: '#3a4750', color: '#f6c90e' }}
     contentArrowStyle={{ borderRight: '16px solid  yellow' }}
     iconStyle={{ background: '#303841', color: '#f6c90e' }}
     icon={<StarIcon />}
@@ -63,7 +63,7 @@ const Projects = () => {
 
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    contentStyle={{ border: '3px solid  yellow', background: '#303841', color: '#f6c90e' }}
+    contentStyle={{ border: '3px solid  yellow', background: '#3a4750', color: '#f6c90e' }}
     contentArrowStyle={{ borderRight: '16px solid  yellow' }}
     iconStyle={{ background: '#303841', color: '#f6c90e' }}
     icon={<StarIcon />}
@@ -80,7 +80,7 @@ const Projects = () => {
               
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    contentStyle={{ border: '3px solid  yellow', background: '#303841', color: '#f6c90e' }}
+    contentStyle={{ border: '3px solid  yellow', background: '#3a4750', color: '#f6c90e' }}
     contentArrowStyle={{ borderRight: '16px solid  yellow' }}
     iconStyle={{ background: '#303841', color: '#f6c90e' }}
     icon={<SchoolIcon />}
