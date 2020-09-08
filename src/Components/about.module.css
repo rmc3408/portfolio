@@ -30,11 +30,11 @@
   justify-content: space-around;
 }
 .about_cards > div {
-  --c-darkGray: #222629;
-  --c-gray: #474b4f;
-  width: 33%;
-  height: 90%;
-  background-color: var(--c-gray);
+  --c-darkGray: #303841;
+  --c-gray: #3a4750;
+  width: 20%;
+  height: 60%;
+  background-color: var(--c-darkGray);
   text-align: center;
   transition: all 0.2s ease-in-out;
   border-radius: 20px;
@@ -42,18 +42,18 @@
   
 }
 .about_cards > div > h3 {
-  color: white;
+  color: #f6c90e;
   padding: 0;
-  margin: 0;
+  margin: 20;
 }
 li {
   list-style-type: none;
   color: white;
 }
 .about_cards > div:hover {
-  transform: scale(1.1) !important;
+  transform: scale(1.2) !important;
 }
 
 .about_cards_img{
-  background-image: url("./img/js.png");
+  width: 100%;
 }

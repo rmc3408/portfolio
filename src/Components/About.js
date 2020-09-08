@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import classes from "./about.module.css";
+import Jimg from './img/js.jpg';
 import AOS from "aos";
 
 const About = () => {
@@ -24,25 +25,36 @@ const About = () => {
       </div>
       <div className={classes.about_cards}>
         <div data-aos="flip-left">
-          <h3>Langauges</h3>
+          <img src={Jimg} alt="skill" className={classes.about_cards_img}/>
+          <h3> Languages </h3>
           <ul>
-            <li>Javascript</li>
-            <li>HTML</li>
-            <li>CSS</li>
+            <li> Javascript ES6 </li>
+            
+            <li> C Sharp </li>
+            <li> Java </li>
+            <li> Python </li>
           </ul>
         </div>
         <div data-aos="flip-left">
+        <img src={Jimg} alt="skill" className={classes.about_cards_img}/>
+          <h3> Library and Frameworks </h3>
           <ul>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li> JQuery </li>
+            <li> React </li>
+            <li> Node.Js </li>
+            <li> ASP.NET MVC </li>
+            <li> Flask/Django </li>
           </ul>
         </div>
         <div data-aos="flip-left">
+        <img src={Jimg} alt="skill" className={classes.about_cards_img}/>
+          <h3> Others </h3>
           <ul>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li> HTML5 / CSS3 </li>
+            <li> SQL : Oracle</li>
+            <li> NoSQL : MongoDB</li>
+            <li> System: Windows / Linux </li>
+            <li> VersionControl: Github </li>
           </ul>
         </div>
       </div>
