@@ -1,6 +1,6 @@
 .about {
-  height: 500px;
-  background-color: #222629;
+  height: 100vh;
+  background-color: #3a4750;
   display: flex;
   flex-direction: column;
 }
@@ -11,6 +11,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .about_text > div {
   text-align: center;
   color: white;
@@ -51,4 +52,8 @@ li {
 }
 .about_cards > div:hover {
   transform: scale(1.1) !important;
+}
+
+.about_cards_img{
+  background-image: url("./img/js.png");
 }
