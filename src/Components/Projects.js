@@ -29,21 +29,6 @@ const Projects = () => {
         Analysis and creating annotation as well data pipelines. I hold a phD in Molecular Biology in Infectious disease and Metabolic disorders.
     </p>
   </VerticalTimelineElement>
-  
-              
-  <VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    contentStyle={{ border: '3px solid  yellow', background: '#303841', color: '#f6c90e' }}
-    contentArrowStyle={{ borderRight: '16px solid  yellow' }}
-    iconStyle={{ background: '#303841', color: '#f6c90e' }}
-    icon={<SchoolIcon />}
-  >
-    <h3 className="vertical-timeline-element-title">Software Enginnerr</h3>
-    <h4 className="vertical-timeline-element-subtitle">Toronto, Canada</h4>
-    <p>
-    I hold a Software Engineer diploma.
-    </p>
-  </VerticalTimelineElement>
              
               
   <VerticalTimelineElement
@@ -89,11 +74,28 @@ const Projects = () => {
     </p>
     <h4 className="vertical-timeline-element-button"> LIVE </h4>
     </VerticalTimelineElement>
+
+
+  
               
+  <VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    contentStyle={{ border: '3px solid  yellow', background: '#303841', color: '#f6c90e' }}
+    contentArrowStyle={{ borderRight: '16px solid  yellow' }}
+    iconStyle={{ background: '#303841', color: '#f6c90e' }}
+    icon={<SchoolIcon />}
+  >
+    <h3 className="vertical-timeline-element-title">Software Engineer</h3>
+    <h4 className="vertical-timeline-element-subtitle">Toronto, Canada</h4>
+    <p>
+    I graduate a Software Engineer diploma at Centennial College.
+    </p>
+  </VerticalTimelineElement>
+        
 
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
-    contentStyle={{ border: '3px solid  yellow', background: '#303841', color: '#f6c90e' }}
+    contentStyle={{ border: '3px solid  yellow', background: '#f6c90e', color: 'black' }}
     contentArrowStyle={{ borderRight: '16px solid  yellow' }}
     iconStyle={{ background: '#303841', color: '#f6c90e' }}
     icon={<WorkIcon />}
