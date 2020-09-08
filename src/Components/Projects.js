@@ -19,7 +19,6 @@ const Projects = () => {
     className="vertical-timeline-element--work"
     contentStyle={{ border: '3px solid  yellow', background: '#303841', color: '#f6c90e' }}
     contentArrowStyle={{ borderRight: '16px solid  yellow' }}
-    date={"2013 - present" }
     iconStyle={{ background: '#303841', color: '#f6c90e' }}
     icon={<SchoolIcon />}  >
                   
@@ -51,7 +50,6 @@ const Projects = () => {
     className="vertical-timeline-element--work"
     contentStyle={{ border: '3px solid  yellow', background: '#303841', color: '#f6c90e' }}
     contentArrowStyle={{ borderRight: '16px solid  yellow' }}
-    date="2019"
     iconStyle={{ background: '#303841', color: '#f6c90e' }}
     icon={<StarIcon />}
   >
@@ -67,7 +65,6 @@ const Projects = () => {
     className="vertical-timeline-element--work"
     contentStyle={{ border: '3px solid  yellow', background: '#303841', color: '#f6c90e' }}
     contentArrowStyle={{ borderRight: '16px solid  yellow' }}
-    date="2020"
     iconStyle={{ background: '#303841', color: '#f6c90e' }}
     icon={<StarIcon />}
   >
@@ -83,7 +80,6 @@ const Projects = () => {
     className="vertical-timeline-element--work"
     contentStyle={{ border: '3px solid  yellow', background: '#303841', color: '#f6c90e' }}
     contentArrowStyle={{ borderRight: '16px solid  yellow' }}
-    date="2020"
     iconStyle={{ background: '#303841', color: '#f6c90e' }}
     icon={<StarIcon />}
   >
@@ -99,7 +95,6 @@ const Projects = () => {
     className="vertical-timeline-element--education"
     contentStyle={{ border: '3px solid  yellow', background: '#303841', color: '#f6c90e' }}
     contentArrowStyle={{ borderRight: '16px solid  yellow' }}
-    date="November 2020"
     iconStyle={{ background: '#303841', color: '#f6c90e' }}
     icon={<WorkIcon />}
   >
