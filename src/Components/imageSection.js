@@ -8,9 +8,9 @@ AOS.init({
   duration: 3200
  });
 
-const ImageSection = () => {
+const ImageSection = ({reff}) => {
   return (
-    <div className={classes.imageContainer}>
+    <div className={classes.imageContainer} ref={reff}>
       <div className={classes.boxTitle} >
         <h1 data-aos="fade-right"
             data-aos-offset="5"
