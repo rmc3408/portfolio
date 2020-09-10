@@ -11,15 +11,6 @@ function App() {
   const about = useRef(null);
   const project = useRef(null);
   const contact = useRef(null);
-<<<<<<< HEAD
-  const executeScroll = () => scrollToRef(about);
-  const scrollToRef = (ref) => animateScrollTo(ref.current.offsetTop);
-  const proj = () => scrollToRef(project);
-  const con = () => scrollToRef(contact);
-
-
-
-=======
   const home = useRef(null);
   const executeScroll = () => scrollToRef(about, "about");
   const scrollToRef = (ref, link) => {
@@ -28,7 +19,6 @@ function App() {
   const proj = () => scrollToRef(project, "project");
   const con = () => scrollToRef(contact, "contact");
   const hom = () => scrollToRef(home);
->>>>>>> 4a35d4a5d276a44a8ac884a5c84f50ad2d337ef6
 
   return (
     <div className="App">
