@@ -3,7 +3,7 @@ import classes from "./about.module.css";
 import Jimg from './img/js.jpg';
 import AOS from "aos";
 
-const About = () => {
+const About = ({reff}) => {
   useEffect(() => {
     AOS.init({
       // initialise with other settings
@@ -11,7 +11,7 @@ const About = () => {
     });
   });
   return (
-    <div className={classes.about}>
+    <div className={classes.about} ref={reff}>
       <div className={classes.about_text}>
         <div>
           <h2>About</h2>

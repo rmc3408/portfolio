@@ -20,7 +20,6 @@ const ImageSection = () => {
           data-aos-delay="700"
           data-aos-duration="3000"> I'm a software developer</h3>
       </div>
-      
   </div>
   )
 };

@@ -6,9 +6,9 @@ import SchoolIcon from '@material-ui/icons/School';
 import WorkIcon from '@material-ui/icons/Work';
 import StarIcon from '@material-ui/icons/Star';
 
-const Projects = () => {
+const Projects = ({reff}) => {
   return (
-<div className={classes.body}>
+<div className={classes.body} ref={reff}>
     <div className={classes.project_title}>
         <h2> My Professional timeline </h2>
     </div>

@@ -3,8 +3,8 @@ import classes from "./Contact.module.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub , faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
-const Contact = () => {
-    return <div className={classes.contact_body}>
+const Contact = ({reff}) => {
+    return <div className={classes.contact_body} ref={reff}>
     <footer>
         <div> 
                 <a href="https://github.com/rmc3408" ><FontAwesomeIcon icon={faGithub} className={classes.icons} /></a>
