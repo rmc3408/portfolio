@@ -32,7 +32,7 @@
   --c-darkGray: #303841;
   --c-gray: #3a4750;
   width: 20%;
-  height: 60%;
+  height: 500px;
   background-color: var(--c-darkGray);
   text-align: center;
   transition: all 0.2s ease-in-out;
@@ -51,6 +51,8 @@ p {
 }
 .about_cards > div:hover {
   transform: scale(1.1) !important;
+  box-sizing: border-box;
+  border: 5px solid #f6c90e;
 }
 
 .about_cards_img{

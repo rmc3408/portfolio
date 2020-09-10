@@ -8,13 +8,6 @@
     background-attachment: fixed;
 
 }
-
-.titleName {
-    color: 'white';
-    margin:0;
-
-}
-
 .boxTitle {
     position: absolute;
     top: 300px; 
@@ -22,15 +15,24 @@
     font-family: 'Special Elite', cursive;
 }
 
-.boxTitle h1 {
-    margin: 0 0 50px 0;
-    color:#f6c90e;
-    font-size: 3rem;
-    font-family: 'PT Sans', sans-serif;
-    
+.titleHi {
+    text-align: left;
+    color:white;
+    font-size: 4rem;
+    margin:0;
+    font-family: 'Opens Sans', sans-serif;
+
 }
 
-.boxTitle h3 {
+.titleName {
+    margin: 5px 0 50px 25px;
+    color:#f6c90e;
+    font-size: 3rem;
+    font-family: 'Opens Sans', sans-serif;
+
+}
+
+.subtitle {
     margin: 0 0 20px 0;
     font-size: 1.7rem;
     color:white;
@@ -38,9 +40,3 @@
     font-family: 'Share Tech Mono', monospace;
     
 }
-
-
-/* .imageContainer > img{
-    width: 100%;
-    height: 100%;
-} */

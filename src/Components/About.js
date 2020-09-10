@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import classes from "./about.module.css";
-import Jimg from './img/js.jpg';
+import Jimg3 from './img/Slide3.PNG';
+import Jimg4 from './img/Slide4.PNG';
+import Jimg5 from './img/Slide5.PNG';
 import AOS from "aos";
 
 const About = ({reff}) => {
@@ -25,16 +27,16 @@ const About = ({reff}) => {
       </div>
       <div className={classes.about_cards}>
         <div data-aos="flip-left">
-          <img src={Jimg} alt="skill" className={classes.about_cards_img}/>
+          <img src={Jimg3} alt="skill" className={classes.about_cards_img}/>
           <h3> Languages </h3>
           <p> Javascript ES6 </p>
-          <p> C Sharp </p>
+          <p> C# </p>
           <p> Java </p>
           <p> Python </p>
           
         </div>
         <div data-aos="flip-left">
-        <img src={Jimg} alt="skill" className={classes.about_cards_img}/>
+        <img src={Jimg4} alt="skill" className={classes.about_cards_img}/>
           <h3> Library and Frameworks </h3>
           <p> JQuery </p>
           <p> React </p>
@@ -45,7 +47,7 @@ const About = ({reff}) => {
           
         </div>
         <div data-aos="flip-left">
-        <img src={Jimg} alt="skill" className={classes.about_cards_img}/>
+        <img src={Jimg5} alt="skill" className={classes.about_cards_img}/>
           <h3> Others </h3>
             <p> HTML5 / CSS3 </p>
             <p> SQL : Oracle</p>

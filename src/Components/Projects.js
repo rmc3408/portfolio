@@ -4,6 +4,7 @@ import { VerticalTimeline,  VerticalTimelineElement } from "react-vertical-timel
 import "react-vertical-timeline-component/style.min.css";
 import SchoolIcon from '@material-ui/icons/School';
 import WorkIcon from '@material-ui/icons/Work';
+import Button from '@material-ui/core/Button';
 import StarIcon from '@material-ui/icons/Star';
 
 const Projects = ({reff}) => {
@@ -34,15 +35,27 @@ const Projects = ({reff}) => {
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
     contentStyle={{ border: '3px solid  yellow', background: '#3a4750', color: '#f6c90e' }}
-    contentArrowStyle={{ borderRight: '16px solid  yellow' }}
+    contentArrowStyle={{ borderRight: '16px solid yellow' }}
     iconStyle={{ background: '#303841', color: '#f6c90e' }}
     icon={<StarIcon />}
   >
     <h3 className="vertical-timeline-element-title"> Javascript Project </h3>
     <p>
-    its a game deleoper for website.
+            its a game develope in javascript for website.
     </p>
-    <h4 className="vertical-timeline-element-button"> LIVE </h4>
+          
+          <h4 className="vertical-timeline-element-button">
+          <div className={classes.btns}>
+              <Button variant="outlined" style={{border:'2px solid yellow', color:'white'}}
+                href='https://github.com/rmc3408/webdevelop/tree/master/Project09%20-%20SimomGame'>View Code</Button>
+              <span className={classes.btns_span}></span>    
+              <Button
+                variant="outlined"
+                style={{ border: '2px solid yellow', color: 'white' }}
+                href='https://github.com/rmc3408/webdevelop/tree/master/Project09%20-%20SimomGame'
+                >LIVE</Button>
+          </div>
+          </h4>
   </VerticalTimelineElement>
               
 
@@ -57,7 +70,15 @@ const Projects = ({reff}) => {
     <p>
     its about Daily TO DO LIST 
     </p>
-    <h4 className="vertical-timeline-element-button"> LIVE </h4>
+          <h4 className="vertical-timeline-element-button">
+            <div className={classes.btns}>
+              <Button variant="outlined" style={{border:'2px solid yellow', color:'white'}}
+                onClick={() => { alert('CODE') }}>View Code</Button>
+              <span className={classes.btns_span}></span>    
+              <Button
+                variant="outlined" style={{border:'2px solid yellow', color:'white'}}
+                onClick={() => { alert('Yey, WEBSITE') }}>LIVE</Button>
+          </div> </h4>
   </VerticalTimelineElement>
               
 
@@ -72,7 +93,17 @@ const Projects = ({reff}) => {
     <p>
     its about tweet my news
     </p>
-    <h4 className="vertical-timeline-element-button"> LIVE </h4>
+          <h4 className="vertical-timeline-element-button">
+          <div className={classes.btns}>
+              <Button
+                variant="outlined"
+                style={{ border: '2px solid yellow', color: 'white' }}
+                href='null'>View Code</Button>
+              <span className={classes.btns_span}></span>    
+              <Button
+                variant="outlined" style={{border:'2px solid yellow', color:'white'}}
+                href='null'>LIVE</Button>
+          </div>      </h4>
     </VerticalTimelineElement>
 
 
