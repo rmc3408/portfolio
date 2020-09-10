@@ -13,7 +13,7 @@ const ImageSection = () => {
     <div className={classes.imageContainer}>
       <div className={classes.boxTitle} >
         <h1 data-aos="fade-right"
-            data-aos-offset="300"
+            data-aos-offset="5"
             data-aos-easing="ease-in-sine"
             className={classes.titleName}> Hello, My name is Raphael Molinaro </h1>
         <h3 data-aos="fade-up"
