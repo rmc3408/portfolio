@@ -7,14 +7,14 @@ const About = ({reff}) => {
   useEffect(() => {
     AOS.init({
       // initialise with other settings
-      duration: 2000,
+      duration: 1200,
     });
   });
   return (
     <div className={classes.about} ref={reff}>
       <div className={classes.about_text}>
         <div>
-          <h2>About</h2>
+          <h2> About </h2>
           <p>
             I'm a logical, critical thinker that enjoys the problem solving and
             continuous learning inherent in software development. My mission is
@@ -27,35 +27,31 @@ const About = ({reff}) => {
         <div data-aos="flip-left">
           <img src={Jimg} alt="skill" className={classes.about_cards_img}/>
           <h3> Languages </h3>
-          <ul>
-            <li> Javascript ES6 </li>
-            
-            <li> C Sharp </li>
-            <li> Java </li>
-            <li> Python </li>
-          </ul>
+          <p> Javascript ES6 </p>
+          <p> C Sharp </p>
+          <p> Java </p>
+          <p> Python </p>
+          
         </div>
         <div data-aos="flip-left">
         <img src={Jimg} alt="skill" className={classes.about_cards_img}/>
           <h3> Library and Frameworks </h3>
-          <ul>
-            <li> JQuery </li>
-            <li> React </li>
-            <li> Node.Js </li>
-            <li> ASP.NET MVC </li>
-            <li> Flask/Django </li>
-          </ul>
+          <p> JQuery </p>
+          <p> React </p>
+          <p> Node.Js </p>
+          <p> Express </p>
+          <p> ASP.NET MVC </p>
+          <p> Django </p>
+          
         </div>
         <div data-aos="flip-left">
         <img src={Jimg} alt="skill" className={classes.about_cards_img}/>
           <h3> Others </h3>
-          <ul>
-            <li> HTML5 / CSS3 </li>
-            <li> SQL : Oracle</li>
-            <li> NoSQL : MongoDB</li>
-            <li> System: Windows / Linux </li>
-            <li> VersionControl: Github </li>
-          </ul>
+            <p> HTML5 / CSS3 </p>
+            <p> SQL : Oracle</p>
+            <p> NoSQL : MongoDB</p>
+            <p> System: Windows / Linux </p>
+            <p> VersionControl: Github </p>
         </div>
       </div>
       <div className={classes.project}></div>

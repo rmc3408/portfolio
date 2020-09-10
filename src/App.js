@@ -8,13 +8,13 @@ import Contact from './Components/Contact';
 import animateScrollTo from 'animated-scroll-to';
 
 function App() {
-  const about= useRef(null)
-  const project=useRef(null)
-  const contact=useRef(null)
-  const executeScroll = () => scrollToRef(about)
-  const scrollToRef = (ref) => animateScrollTo(ref.current.offsetTop)
-  const proj = () => scrollToRef(project)
-  const con = () => scrollToRef(contact)
+  const about = useRef(null);
+  const project = useRef(null);
+  const contact = useRef(null);
+  const executeScroll = () => scrollToRef(about);
+  const scrollToRef = (ref) => animateScrollTo(ref.current.offsetTop);
+  const proj = () => scrollToRef(project);
+  const con = () => scrollToRef(contact);
 
 
 
