@@ -51,7 +51,7 @@ li {
   color: white;
 }
 .about_cards > div:hover {
-  transform: scale(1.2) !important;
+  transform: scale(1.1) !important;
 }
 
 .about_cards_img{
