@@ -8,14 +8,17 @@ import Contact from "./Components/Contact";
 import animateScrollTo from "animated-scroll-to";
 
 function App() {
+  
   const about = useRef(null);
   const project = useRef(null);
   const contact = useRef(null);
   const home = useRef(null);
-  const executeScroll = () => scrollToRef(about, "about");
+
   const scrollToRef = (ref, link) => {
     animateScrollTo(ref.current.offsetTop);
   };
+
+  const abou = () => scrollToRef(about, "about");
   const proj = () => scrollToRef(project, "project");
   const con = () => scrollToRef(contact, "contact");
   const hom = () => scrollToRef(home);
@@ -23,12 +26,13 @@ function App() {
   return (
     <div className="App">
       <Navbar
-        toAbout={executeScroll}
+        toAbout={abou}
         toProjects={proj}
         toContact={con}
         reff={home}
         toHome={hom}
       />
+      
       <ImageSection reff={home} />
       <About reff={about} />
       <Projects reff={project} />
