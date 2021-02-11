@@ -18,7 +18,7 @@
 .titleHi {
     text-align: left;
     color:white;
-    font-size: 4.5rem;
+    font-size: 6vw;
     margin:0;
     font-family: 'Opens Sans', sans-serif;
 
@@ -27,14 +27,14 @@
 .titleName {
     margin: 5px 0 50px 25px;
     color:#f6c90e;
-    font-size: 3rem;
+    font-size: 4vw;
     font-family: 'Opens Sans', sans-serif;
 
 }
 
 .subtitle {
     margin: 0 0 20px 0;
-    font-size: 1.7rem;
+    font-size: 3vmin;
     color:white;
     text-align: right;
     font-family: 'Share Tech Mono', monospace;

@@ -13,6 +13,10 @@
     align-items: center;
     justify-content: center;
 }
+.project_title > h2 {
+    font-size: 3vh;
+
+}
 
 .work_contentStyle { 
     background: rgb(33, 150, 243);
@@ -31,4 +35,13 @@
 .btns_span {
     margin-left: 50px;
     
+}
+
+li {
+    text-align: justify;
+    line-height: 1.5rem;
+    line-height-step: 1rem;
+}
+li:not(:last-child) {
+    margin-bottom: 5px;
 }

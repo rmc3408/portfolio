@@ -14,13 +14,16 @@
 .about_text > div {
   text-align: center;
   color: white;
-  width: 50%;
-  font-size: 2rem;
+  width: 70%;
+  font-size: 3vh;
+  margin-bottom: 30px;
 }
 .about_text > div > p {
   font-size: 1.3rem;
 }
-
+.about_text > div > span {
+  font-size: 2vmax;
+}
 .about_cards {
   box-sizing: border-box;
   display: flex;

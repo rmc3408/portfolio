@@ -17,12 +17,12 @@ const About = ({reff}) => {
       <div className={classes.about_text}>
         <div>
           <h2> About </h2>
-          <p>
+          <span>
             I'm a logical, critical thinker that enjoys the problem solving and
             continuous learning inherent in software development. My mission is
             to use my skills and passion for learning to build intuitive and
             responsive web applications.
-          </p>
+          </span>
         </div>
       </div>
       <div className={classes.about_cards}>
@@ -41,11 +41,11 @@ const About = ({reff}) => {
         <div data-aos="flip-left">
         <img src={Jimg4} alt="skill" className={classes.about_cards_img}/>
           <h3> Library and Frameworks </h3>
-          <p> JQuery </p>
           <p> React / Redux / Hooks </p>
           <p> Material-UI </p>
           <p> Node.Js </p>
           <p> Express </p>
+          <p> JQuery </p>
           <p> ASP.NET </p>
           
           

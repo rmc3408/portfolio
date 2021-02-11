@@ -8,7 +8,7 @@ const Contact = ({ reff }) => {
     return <div className={classes.contact_body} ref={reff}>
     <footer>
         <div> 
-            <a href="mailto:rmc3408@protonmail.com" ><FontAwesomeIcon icon={faEnvelope} className={classes.icons} /></a>  
+            <a href="mailto:molinaro.raphael@gmail.com" ><FontAwesomeIcon icon={faEnvelope} className={classes.icons} /></a>  
             <a href="https://github.com/rmc3408" ><FontAwesomeIcon icon={faGithub} className={classes.icons} /></a>
             <a href='https://www.linkedin.com/in/molinaro-raphael/'><FontAwesomeIcon icon={faLinkedin} className={classes.icons} /> </a>      
         </div>
