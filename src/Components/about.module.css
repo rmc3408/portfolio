@@ -19,11 +19,17 @@
   margin-bottom: 30px;
 }
 .about_text > div > p {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
 }
 .about_text > div > span {
-  font-size: 2vmax;
+  font-size: 1.6vmax;
 }
+
+.about_text .highlight_text {
+  color: #f6c90e;
+  font-weight: 700;
+}
+
 .about_cards {
   box-sizing: border-box;
   display: flex;
@@ -37,7 +43,7 @@
   --c-darkGray: #303841;
   --c-gray: #3a4750;
   width: 30vh;
-  height: auto;
+  height: 50vh;
   background-color: var(--c-darkGray);
   text-align: center;
   transition: all 0.3s ease-in;
@@ -68,12 +74,12 @@ p {
   color: white;
 }
 .about_cards > div:hover {
-  transform: scale(1.2) !important;
+  transform: scale(1.1) !important;
   box-sizing: border-box;
   border: 2px solid #f6c90e;
 }
 
-.about_cards_img{
+.about_cards_img {
   width: 100%;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;

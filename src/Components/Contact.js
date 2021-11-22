@@ -13,7 +13,7 @@ const Contact = ({ reff }) => {
             <a href='https://www.linkedin.com/in/molinaro-raphael/'><FontAwesomeIcon icon={faLinkedin} className={classes.icons} /> </a>      
         </div>
          
-    <p> Created by Raphael Molinaro @ 2020 </p>
+    <p> Created by Raphael Molinaro @ 2021 </p>
     </footer>
         
     </div>

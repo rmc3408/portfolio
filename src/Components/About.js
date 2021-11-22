@@ -5,56 +5,55 @@ import Jimg4 from './img/Slide4.PNG';
 import Jimg5 from './img/Slide5.PNG';
 import AOS from "aos";
 
-const About = ({reff}) => {
+const About = ({ reff }) => {
+  
   useEffect(() => {
     AOS.init({
       // initialise with other settings
       duration: 2000,
     });
-  });
+  }, []);
+
   return (
     <div className={classes.about} ref={reff}>
       <div className={classes.about_text}>
         <div>
           <h2> About </h2>
           <span>
-            I'm a logical, critical thinker that enjoys the problem solving and
-            continuous learning inherent in software development. My mission is
-            to use my skills and passion for learning to build intuitive and
-            responsive web applications.
+            I'm a <span className={classes.about_text, classes.highlight_text}>Front End developer with 1 year of professional experience</span> who is always continuous learning,
+            excellent communicator, careful in writing documentation and works well independent and in a team.
           </span>
         </div>
       </div>
       <div className={classes.about_cards}>
         <div data-aos="flip-left">
           <img src={Jimg3} alt="skill" className={classes.about_cards_img}/>
-          <h3> Languages </h3>
-          <p> Javascript </p>
+          <h3> Main Skills </h3>
+          <p> Javascript ES6+ </p>
           <p> TypeScript </p>
-          <p> HTML5 / CSS3 </p>
-          <p> SQL and NoSQL</p>
-          <p> C# </p>
-          <p> Java </p>
           <p> Python </p>
+          <p> HTML5 / CSS3 </p>
+          <p> MySQL and MongoDB</p>
+          <p> GraphQL </p>
+          <p> C# / Java </p>
           
         </div>
         <div data-aos="flip-left">
         <img src={Jimg4} alt="skill" className={classes.about_cards_img}/>
           <h3> Library and Frameworks </h3>
-          <p> React / Redux / Hooks </p>
-          <p> Material-UI </p>
-          <p> Node.Js </p>
-          <p> Express </p>
-          <p> JQuery </p>
-          <p> ASP.NET </p>
-          
+          <p> React / React Native / Redux </p>
+          <p> Serverless Frameworks </p>
+          <p> StoryBook </p>
+          <p> Material-UI / AntD / Tailwind </p>
+          <p> Node.Js / Express </p>
+          <p> AWS Gateway / AppSync </p>
           
         </div>
         <div data-aos="flip-left">
         <img src={Jimg5} alt="skill" className={classes.about_cards_img}/>
           <h3> Others </h3>
           <p> Windows / Linux </p>
-          <p> Cloud service </p>
+          <p> AWS Cloud services </p>
           <p> Trello / JIRA </p>
           <p> Git / Github / BitBucket </p>
         </div>
