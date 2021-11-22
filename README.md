@@ -1,5 +1,6 @@
 # Portfolio
-Watch live: https://rmc3408.github.io/Portfolio/
+Watch live: https://portfolio-oct2020.web.app/
+
 
 Created by Sid and Raphael
 ## Status
